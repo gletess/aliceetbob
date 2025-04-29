@@ -10,4 +10,4 @@ function generateRandom() {
 
 let button = document.querySelector('button');
 button.addEventListener('click', generateRandom);
-button.disabled = false;
+button.disabled = true;
